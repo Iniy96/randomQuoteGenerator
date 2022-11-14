@@ -1,0 +1,39 @@
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background:linear-gradient(rgba(255, 251, 195, 0.651),rgb(253, 226, 255),rgb(153, 153, 255));
+}
+.card-body{
+    text-align: center;
+}
+.author{
+    text-align: right;
+}
+.copy-btn{
+    
+    align-items: center;
+    padding: 0.2em;
+    border: none;
+    border-radius: 0.3em;
+    display: flex;
+    width: 1.4em;
+    align-self: flex-end;
+    margin-bottom: 1em;
+}
+.fa-regular{
+    font-size: 1.7em;
+    color: rgba(95, 94, 94, 0.61);
+}
+.quote{
+    font-size: 1.1em;
+}
+.card-body{
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+}
+.card{
+    border-color: #0d6efd;
+
+}
